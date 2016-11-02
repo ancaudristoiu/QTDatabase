@@ -6,15 +6,20 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets sql
 
 TARGET = MyQtSqlBrowser
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    dbconnection.cpp \
+    dbdialog.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    dbconnection.h \
+    dbdialog.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    dbdialog.ui
