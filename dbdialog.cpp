@@ -47,6 +47,26 @@ void DBDialog::on_okButton_clicked()
         QMessageBox::information(this, "No database driver selected", "Please select a database driver!");
 
     }
+    else  if(ui->editDatabase->text().isEmpty()){
+        QMessageBox::information(this, "No database ", "Please introduce a database!");
+
+    }
+    else  if(ui->editHostname->text().isEmpty()){
+        QMessageBox::information(this, "No host ", "Please introduce a host!");
+
+    }
+    else  if(ui->editUsername->text().isEmpty()){
+        QMessageBox::information(this, "No username ", "Please introduce an username!");
+
+    }
+    else  if(ui->editPassword->text().isEmpty()){
+        QMessageBox::information(this, "No password ", "Please introduce a password!");
+
+    }
+    else  if(ui->editPort->text().isEmpty()){
+        QMessageBox::information(this, "No port ", "Please introduce a port!");
+
+    }
     else{
         accept();
     }

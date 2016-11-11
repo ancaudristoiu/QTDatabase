@@ -1,0 +1,21 @@
+*.user
+<<<<<<< HEAD
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+=======
+>>>>>>> 965e21d73553ca0eb8a3e1d1fae6cef3ec199a9d
